@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ce que j'ai appris en code – Sébastien</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="page-apprentissage">
+    <!-- pour un fond thématique si tu veux -->
+
+    <header>
+      <div class="header-content">
+        <a href="index.html" class="back-link">← Retour à l'accueil</a>
+
+        <nav class="passion-nav">
+          <a href="jeux-videos.html" class="passion-link">Jeux vidéos</a>
+          <a href="cuisine.html" class="passion-link">Cuisine</a>
+          <a href="bois.html" class="passion-link">Bois</a>
+          <a href="musique.html" class="passion-link">Musique</a>
+          <a href="apprentissage.html" class="passion-link current">Apprentissage code</a>
+        </nav>
+
+        <h1>Ce que j’ai appris en codage ces dernières semaines</h1>
+      </div>
+    </header>
+
+    <main class="article-content">
+      <article>
+        <h2>Mes premiers pas dans l'univers du codage ne datent pas d'hier</h2>
+
+        <p class="intro">
+          Tout a commencé il y a quelques années, pendant mes études à l'IUT de Troyes. J'étais en
+          GEII, Génie Electrique et Informatique industrielle. J'ai appris, durant ces deux ans, les
+          langages de programmation (Assembleur, C++). Puis j'ai commencé la vie active, je ne
+          trouvais pas de poste à ce moment là en programmation, je me suis redirigé sur
+          l'électronique ma formation précédente. A mon entrée dans l'entreprise où j'ai passé 17
+          ans, j'ai commencé en tant qu'assembleur/monteur sur la partie électronique. Après deux
+          ans je suis passé référent technique, et pour finir animateur d'équipe et agent de
+          maitrise/superviseur de production. Pendant ces années j'ai pu mettre à profit mon goût
+          pour la programmation, j'ai crée des fichiers de suivi de production (excel + macro VBA).
+          Puis un planning de production avec planification, le tout en me servant des bases de
+          données sur le réseau ou en faisant les miennes. Par la suite, j'ai mis en place un suivi
+          des KPI et de respect du PDP (plan directeur de production).
+        </p>
+
+        <p>
+          Mais j'avais toujours cette envie de coder qui me trottait dans l'esprit. Alors j'ai fait
+          des projets persos, j'ai commencé petit avec de l'Arduino. Puis je suis passé au Raspberry
+          pi, la version 3 puis la 4 avec laquelle j'ai construit ma borne d'arcade.
+        </p>
+
+        <p>
+          J'adore apprendre, je suis curieux de nature j'aime comprendre comment les choses
+          fonctionnent, c'est pareil pour le codage.
+        </p>
+
+        <h2>Les bases qui m’ont surpris</h2>
+
+        <p>
+          Ces dernières semaines (début 2026), je me suis lancé dans le codage HTML/CSS, sans
+          formation, sans prof, juste avec ma curiosité et ma logique. J'avais des bases, mais ce
+          nouveau langage me paraissait compliqué. Mais je suis fier actuellement d'avoir construit
+          ce site perso de A à Z avec ce que j'ai appris tout seul.
+        </p>
+
+        <figure class="article-figure">
+          <img src="images/code/balises1.png" alt="Schéma balises sémantiques" />
+          <figcaption>Les balises qui changent tout (sémantique)</figcaption>
+        </figure>
+
+        <h3>Les bases :</h3>
+
+        <p>
+          Je me doutais bien que le HTML avait comme les autres codes, une sémantique, des règles.
+          Après avoir suivi quelques cours en ligne, je me suis rendu compte que comme tous les
+          autres langages une fois la barrière des balises passées cela irait mieux. L'architecture
+          de ce code est assez logique (header, main, section, body, ….) tout à une place et un sens
+          défini. Ce qui a été le plus compliqué pour moi c'est de comprendre la différence entre le
+          HTML et le CSS, car jusqu'à présent je ne parlait que un seul langage le code machine. Un
+          code qui fait des actions sur une machine ou un tableur. Une fois que j'avais enfin
+          compris que le HTML est le corps du code, et que le CSS est la mise en forme cela a été
+          moins complexe.
+        </p>
+
+        <h3>Ce que j’ai compris tard :</h3>
+        <ul>
+          <li>La différence entre margin et padding (j’ai perdu des heures là-dessus !).</li>
+          <li>
+            Flexbox et Grid : comment centrer, aligner, faire des grilles responsives sans galérer
+          </li>
+          <li>object-fit: cover/contain : pourquoi mes photos étaient tronquées</li>
+        </ul>
+
+        <p>
+          Comprendre la différence et surtout l'utilité de ces balises. Après un bon nombre d'essais
+          parfois maladroit, j'ai enfin pu comprendre l'utilité de chacun, l'avantage de voir en
+          direct (avec VScode) et de faire tourner mon site en local, avant de le pousser sur Git.
+        </p>
+
+        <h2>Les effets qui m’ont fait dire « waouh »</h2>
+
+        <p>
+          Le moment où j’ai réussi à faire apparaître un texte au survol d’une carte (.why-text) :
+          c’était magique.
+        </p>
+
+        <pre><code>
+.photo-item:hover .why-text {
+  display: block;
+}
+      </code></pre>
+
+        <p>
+          J’ai aussi adoré jouer avec les transitions et les ombres au survol. Ça donne tout de
+          suite un côté sympa.
+        </p>
+
+        <h2>Ce qui a été le plus difficile</h2>
+
+        <ul>
+          <li>Responsive : comprendre les media queries et tester sur mobile</li>
+          <li>Les chemins relatifs (pourquoi ./images ne marchait pas parfois)</li>
+          <li>Centrer un élément avec flex sans que tout parte en vrille</li>
+          <li>
+            Nettoyer 500 lignes de CSS sans tout casser, j'avoue que cela s'est fait en plusieures
+            fois.
+          </li>
+        </ul>
+
+        <h2>Le temps passé à traquer les bugs (et pourquoi ça fait partie du jeu)</h2>
+
+        <p>
+          Si je devais donner un seul conseil à quelqu’un qui débute : acceptez que 70 % de votre
+          temps va être passé à chercher pourquoi ça ne marche pas. Au début, je trouvais ça
+          décourageant. Aujourd’hui je vois ça comme 70 % du métier. Chaque bug corrigé = une
+          nouvelle leçon apprise.
+        </p>
+
+        <h3>Les bugs qui m’ont fait tourner en bourrique (et ce que j’ai compris après)</h3>
+
+        <ul>
+          <li>
+            <strong>Les images qui n’apparaissaient pas</strong>
+            J’ai passé plus d’une heure à chercher pourquoi mes photos restaient invisibles.
+            Coupable : un chemin relatif mal écrit (<code>src="images/bois/festool.jpg"</code> au
+            lieu de <code>src="images/bois/festool-ts55.jpg"</code>). Leçon : toujours vérifier la
+            casse, les tirets, les extensions, et tester avec un chemin absolu temporaire pour
+            confirmer.
+          </li>
+
+          <li>
+            <strong>Le CSS qui ne s’appliquait pas du tout</strong>
+            J’avais ajouté une règle pour centrer un élément, rien ne changeait. Coupable : le
+            sélecteur était trop faible (ex. <code>h1</code> écrasé par une règle plus spécifique ou
+            un !important caché ailleurs). Leçon : utiliser l’inspecteur (F12) → onglet Computed
+            pour voir quelle règle gagne, et ajouter de la spécificité ou déplacer la règle en bas
+            du fichier.
+          </li>
+
+          <li>
+            <strong>Le responsive qui marchait sur mon PC mais pas sur mobile</strong>
+            J’avais testé en réduisant la fenêtre, mais pas en vrai mode mobile (F12 → toggle device
+            toolbar). Coupable : oubli des unités relatives (rem/em au lieu de px) et des media
+            queries mal placées. Leçon : toujours tester en mode responsive réel + sur un vrai
+            téléphone quand c’est possible.
+          </li>
+
+          <li>
+            <strong>La nav qui se décalait bizarrement sur certaines pages</strong>
+            Coupable : les boutons passions avec des longueurs différentes qui forçaient le wrap, et
+            le gap qui ne s’appliquait pas uniformément. Leçon : utiliser
+            <code>justify-content: center</code> + <code>height: 100%</code> sur les cartes pour
+            uniformiser.
+          </li>
+
+          <li>
+            <strong>Le surlignage rouge dans VS Code sur mes h3</strong>
+            J’ai cru que j’avais une erreur de code. Coupable : extension HTMLHint qui râle sur la
+            hiérarchie de titres (plusieurs h3 sans h2 avant). Leçon : les warnings d’extensions ne
+            sont pas toujours des erreurs, parfois juste des suggestions de bonnes pratiques.
+          </li>
+        </ul>
+
+        <p>
+          Chaque bug corrigé m’a fait gagner en confiance. Aujourd’hui, quand je vois un problème,
+          je sais que c’est juste une question de temps et d’inspecteur, pas que je suis nul.
+        </p>
+
+        <blockquote>
+          « Un bug n’est pas une défaite, c’est une opportunité d’apprendre quelque chose de
+          nouveau. » (moi-même, après la 15e fois que j’ai cherché pourquoi mon flex ne marchait pas
+          😂)
+        </blockquote>
+
+        <h2>Où j’en suis aujourd’hui</h2>
+
+        <p>
+          En l'espace de 5 semaines, j’ai un site complet : accueil, 5 pages passions, contact,
+          fonds thématiques, effets, responsive de base. Je sais maintenant ce que font 80 % des
+          propriétés CSS que j’utilise actuellement, et je commence à comprendre comment structurer
+          un projet.
+        </p>
+
+        <h2>Mes prochains objectifs</h2>
+
+        <ul>
+          <li>Ajouter un petit formulaire de contact fonctionnel</li>
+          <li>
+            Apprendre JavaScript pour rendre le site interactif (ex. dark mode, filtre recettes)
+          </li>
+          <li>Apprendre le PHP pour rendre le site dynamique (ex. forum, bases de données)</li>
+          <li>Peut-être essayer un framework (Bootstrap ou Tailwind) plus tard</li>
+        </ul>
+
+        <p style="text-align: center; margin-top: 4rem">
+          Si tu lis ça et que tu débutes : fonce ! Ça vaut vraiment le coup. Et si tu as des
+          conseils pour moi, n’hésite pas à m’écrire.
+        </p>
+      </article>
+    </main>
+
+    <footer>
+      <p>© 2026 – Sébastien – Fait avec HTML, CSS et beaucoup de passion</p>
+      <p><a href="contact.html">Me contacter</a></p>
+    </footer>
+  </body>
+</html>
